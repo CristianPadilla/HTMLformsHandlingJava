@@ -32,7 +32,7 @@ public class Servlet extends HttpServlet {
 
         out.println("<tr>");
         out.println("<td>");
-        out.println("usuarios");
+        out.println("usuariosssssssss");
         out.println("</td>");
         out.println("<td>");
         out.println(user);
@@ -48,10 +48,21 @@ public class Servlet extends HttpServlet {
         out.println("</td>");
         out.println("</tr>");
         //and so on with all parameters (use for loop to print arrays)
-
         out.println("</table>");
         out.println("</body>");
         out.println("</html>");
+
+        // Request Headers printing
+//        out.println("HTTP method: " + request.getMethod());
+//        out.println("URI: " + request.getRequestURI());
+
+        //HTTP Status codes
+//        response.setStatus(HttpServletResponse.SC_ACCEPTED);
+//        response.sendError(HttpServletResponse.SC_BAD_GATEWAY,"Error message");
+//        response.sendRedirect("url");
+
+        out.close();
+
 
     }
 }
